@@ -108,7 +108,8 @@ We need the DNS configured before we setup n8n server because Caddy will use the
 ```bash
 ssh -i ~/.ssh/id_rsa_n8n n8nadmin@<VM_IP>
 ```
-
+You can use either the VM IP address or the DNS Name found here:
+![Alt text](images/vm_dns_ip.png)
 2. Open new Terminal and Copy setup files:
 ```bash
 # From your local machine
